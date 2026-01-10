@@ -1,0 +1,23 @@
+ripple-project/
+│
+├── ripple_pipeline.py
+├── ripple_app.py
+│
+├── web/
+│   ├── index.html
+│   ├── main.js
+│   ├── shader.vert
+│   └── shader.frag
+│   ├── events.json   (pipeline run ပြီးမှ ထွက်မယ့် file)
+│   └── mel.png       (pipeline run ပြီးမှ ထွက်မယ့် file)
+│
+└── node-server/      (Node.js renderer သုံးမယ်ဆိုရင်)
+    ├── package.json
+    ├── server.js
+    └── public/
+        ├── index.html
+        ├── main.js
+        ├── shader.vert
+        └── shader.frag
+        ├── events.json
+        └── mel.png
