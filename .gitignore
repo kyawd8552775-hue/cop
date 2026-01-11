@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.spec
+
+# Virtual envs
+env/
+venv/
+ripple_env/
+librosa_env/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+
+# Build / dist
+build/
+dist/
+*.log
+
+# OS / editor
+.DS_Store
+*.code-workspace
+
+# Test records / generated data
+test_records/
+web/data/
